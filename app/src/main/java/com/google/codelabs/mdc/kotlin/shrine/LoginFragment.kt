@@ -12,14 +12,11 @@ import androidx.fragment.app.Fragment
 class LoginFragment : Fragment() {
 
     override fun onCreateView(
-            inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        // Inflate the layout for this fragment
-
-        // Snippet from "Navigate to the next Fragment" section goes here.
-
+            inflater: LayoutInflater,
+            container: ViewGroup?,
+            savedInstanceState: Bundle?
+    ): View? {
         val view = inflater.inflate(R.layout.shr_login_fragment, container, false)
         return view
     }
-
-    // "isPasswordValid" from "Navigate to the next Fragment" section method goes here
 }
